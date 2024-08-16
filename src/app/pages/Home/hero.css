@@ -1,0 +1,31 @@
+.heroContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+p{
+    padding-top: 2.5rem;
+}
+.hero-2 > *{
+    width: auto;
+    height: auto;
+    object-fit: contain !important;
+    border-radius: 200px;
+
+}
+
+.btn{
+    margin-top: 3.5rem;
+    padding:  18px 32px ;
+     background-color: #C5FF4A;
+     /* background-color: blueviolet; */
+     border: none;
+     outline: none;
+     border-radius: 8px;
+     font-size: 18px;
+     font-weight: 700;
+     color: black;
+}
