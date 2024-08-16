@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Hero from "./pages/Home/Hero";
 import About from "./pages/About/About";
 import Service from "./pages/Service/Service";
+import Contact from "./pages/Contact/Contact";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <About />
       <Service />
+      <Contact />
     </main>
   );
 }

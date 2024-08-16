@@ -1,0 +1,99 @@
+.contactContainer{
+  display: flex;
+  gap: 2rem;
+}
+
+#contact > h3{
+  color: #C5FF4A;
+}
+
+.contact-1, .contact-2{
+  flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+form {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.inputbox {
+  position: relative;
+  margin-top: 1.5rem
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem 0;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  transition: border-color 0.3s;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  border-color: black;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  height: 150px;
+}
+
+label {
+  position: absolute;
+  top: 0.5rem;
+  left: 0rem;
+  /* padding: 0 0.25rem; */
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:valid~label,
+textarea:focus~label {
+  color: gray;
+  transform: translateY(-24px);
+  font-size: 0.8rem;
+}
+
+form>button {
+  position: relative;
+  padding:  18px 32px ;
+  color: black;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgb(0, 0, 0, .5);
+  outline-offset: 0px;
+  transition: all 0.5s ease;
+  font-size: 1rem;
+}
+
+form>button:hover {
+  padding:  18px 32px ;
+  border: 1.5px solid black;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+}

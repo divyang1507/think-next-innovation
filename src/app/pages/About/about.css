@@ -1,15 +1,21 @@
-h3{
-    color: #C5FF4A ;
+#about>h3 {
+    color: #C5FF4A;
+    margin-bottom: 1rem;
 }
 
-.aboutContainer{
-display: flex;
-justify-content: space-between;
-align-items: center;
-gap: 20px;
+.aboutContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 
 }
 
-.about-1, .about-2{
+.about-1,
+.about-2 {
     flex: 1;
+}
+
+.about-1 > p{
+    padding-top: 2rem;
 }

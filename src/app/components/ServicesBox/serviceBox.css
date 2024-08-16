@@ -1,5 +1,19 @@
-.box{
+.box {
     border: 1px solid black;
     padding: 3rem 2rem;
-    
+    border-radius: 20px;
+}
+
+.box>.icon {
+    font-size: 3rem;
+}
+
+
+.box>p {
+    padding-top: 1rem;
+}
+
+.box>h4 {
+    padding: 1rem 0 0.5rem 0;
+    font-size: 24px;
 }
