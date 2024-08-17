@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import "../../../../src/app/globals.css";
 import AboutBox from "@/app/components/AboutBox/AboutBox";
 const About = () => {
   const aboutbox = [

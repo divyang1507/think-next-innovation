@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="contactContainer">
           <div className="contact-1">
             <h2> Connect with Next Innovation</h2>
-            <h4> We are Here to Help</h4>
+            <h3> We are Here to Help</h3>
 
             <div>
               <IoMdMail /> <span>info@thinknextinnovation.com</span>
@@ -24,7 +24,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact-2">
-            <htmlForm>
+            <form>
               <div className="inputbox">
                 <input type="text" required />
                 <label htmlFor="name"> Name</label>
@@ -38,7 +38,7 @@ const Contact = () => {
                 <label htmlFor="name"> Message</label>
               </div>
               <button className="btn"> Contact us</button>
-            </htmlForm>
+            </form>
           </div>
         </div>
       </section>

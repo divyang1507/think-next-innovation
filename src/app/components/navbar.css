@@ -31,15 +31,39 @@
 
 
 @media only screen and  (max-width: 767px) {
+    nav{
+        position: relative;
+    }
+    
     .logo{
         font-size: 24px;
+        z-index: 999;
     }
     
    .menubtn{
     display: flex;
     justify-content: center;
+    z-index: 999;
+    padding: 1rem;
+    font-size: 20px;
+    border-radius: 55px;
    }
 .navMenu{
-    display: none;
+    display: none
+
+}
+.navMenuOpen{
+    display: flex;
+    flex-direction: column;
+position: absolute;
+top: 0;
+background-color: black;
+height: 100vh;
+width: 100vw;
+justify-content: center;
+align-items: center;
+left: 0; 
+gap: 3rem;
+
 }
   }

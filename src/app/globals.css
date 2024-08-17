@@ -63,18 +63,18 @@ p{
 
 /* Mobile Devices */
 @media (max-width: 576px) {
-  h1 { font-size: 24px; }
-  h2 { font-size: 20px; }
-  h3 { font-size: 18px; }
-  p { font-size: 14px; }
+  h1 { font-size: 36px; }
+  h2 { font-size: 28px; }
+  h3 { font-size: 22px; }
+  p { font-size: 18px !important; }
 }
 
 /* Tablets */
 @media (min-width: 577px) and (max-width: 768px) {
-  h1 { font-size: 28px; }
-  h2 { font-size: 24px; }
-  h3 { font-size: 20px; }
-  p { font-size: 16px; }
+  h1 { font-size: 36px; }
+  h2 { font-size: 28px; }
+  h3 { font-size: 22px; }
+  p { font-size: 18px !important; }
 }
 
 /* Laptops */

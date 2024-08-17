@@ -115,3 +115,26 @@ form>button:hover {
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
 }
+
+
+
+
+@media only screen and  (max-width: 767px) {
+   
+  .contactContainer {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 32px;
+  }
+
+  #contact >h3 {
+      margin-bottom: 1rem;
+
+  }
+.contact-1 > h3{
+margin-top: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+  
+      
+    }
