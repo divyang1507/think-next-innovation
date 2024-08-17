@@ -5,8 +5,9 @@
 }
 
 #service>h3 {
-    color: #b7ec46;
+    color: var(--primary-color);
     text-align: center;
+    margin-bottom: 1.5rem;
 
 }
 
@@ -15,3 +16,14 @@
     text-align: center;
 
 }
+
+
+@media only screen and  (max-width: 767px) {
+   
+    .serviceBox {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 32px;
+    }
+        
+      }

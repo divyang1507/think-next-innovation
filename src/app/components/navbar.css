@@ -2,10 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 1.5rem 2rem;
     position: fixed;
     top: 0;
     width: 100%;
+    background: black;
+    color: white;
 }
 
 .navMenu{
@@ -14,3 +16,30 @@
     align-items: center;
     gap: 3rem;
 }
+
+.logo{
+    font-size: 28px;
+}
+
+.navLink:hover {
+    color: #C5FF4A ;
+}
+
+.menubtn{
+    display: none;
+}
+
+
+@media only screen and  (max-width: 767px) {
+    .logo{
+        font-size: 24px;
+    }
+    
+   .menubtn{
+    display: flex;
+    justify-content: center;
+   }
+.navMenu{
+    display: none;
+}
+  }

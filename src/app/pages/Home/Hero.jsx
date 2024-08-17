@@ -8,8 +8,8 @@ const Hero = () => {
       <section className="hero">
         <div className="heroContainer">
           <div className="hero-1">
-            <h2>Think IT, Think Next</h2>
-            <h1>Brand, Design & Development Agency</h1>
+            <h2 className="tag">Think IT, Think Next</h2>
+            <h1 className="maintag">Brand, Design & Development Agency</h1>
             <p>
               At Think Next Innovation, Transforming ideas into innovative
               solutions. Partner with us to bring your visions to life and stay

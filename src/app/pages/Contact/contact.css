@@ -4,15 +4,32 @@
 }
 
 #contact > h3{
-  color: #C5FF4A;
+  color: var(--primary-color);
 }
 
 .contact-1, .contact-2{
   flex: 1;
 }
 
+.contact-1 > div  {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  padding:12px 0 
+}
 
+.contact-1 > h4  {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
 
+.contact-1 > div > span {
+  padding-left: 1rem;
+}
+
+.contact-1 > div > :first-child{
+  color: var(--primary-color);
+}
 
 
 
@@ -38,7 +55,7 @@ textarea {
   outline: none;
   border-bottom: 1px solid gray;
   transition: border-color 0.3s;
-  font-size: 1rem;
+  font-size: 18px;
 }
 
 input:focus,
@@ -59,6 +76,7 @@ label {
   /* padding: 0 0.25rem; */
   pointer-events: none;
   transition: 0.5s;
+  font-size: 18px;
 }
 
 input:focus~label,
