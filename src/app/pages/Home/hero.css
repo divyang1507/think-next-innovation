@@ -9,9 +9,16 @@
 }
 
 .maintag {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  overflow: hidden;
+}
+.maintag > h1{
   font-size: 70px;
 }
-
+.tag{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  overflow: hidden;
+}
 /* .hero-1, .hero-2{
     flex: 1;
 } */
