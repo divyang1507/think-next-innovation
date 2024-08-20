@@ -3,8 +3,17 @@
   gap: 2rem;
 }
 
-#contact > h3{
+.contactHeading{
   color: var(--primary-color);
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 54px;
+}
+
+.contactTag{
+margin-bottom: 32px;
+text-align: center;
+font-size: 36px;
 }
 
 .contact-1, .contact-2{
@@ -87,33 +96,9 @@ textarea:focus~label {
   transform: translateY(-24px);
   font-size: 0.8rem;
 }
-
-form>button {
-  position: relative;
-  padding:  18px 32px ;
-  color: black;
-  background: transparent;
-  cursor: pointer;
-  border-radius: 5px;
-  display: block;
+.contactButton{
+  margin-top: 2rem !important;
   width: 100%;
-  border: 1px solid black;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-  outline: 1px solid;
-  outline-color: rgb(0, 0, 0, .5);
-  outline-offset: 0px;
-  transition: all 0.5s ease;
-  font-size: 1rem;
-}
-
-form>button:hover {
-  padding:  18px 32px ;
-  border: 1.5px solid black;
-  background-color: #000000;
-  color: white;
-  cursor: pointer;
-  outline-color: rgba(255, 255, 255, 0);
-  outline-offset: 15px;
 }
 
 

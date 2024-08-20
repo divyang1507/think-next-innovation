@@ -2,18 +2,21 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
+    padding: 1rem;
 }
 
-#service>h3 {
+.serviceHeading{
     color: var(--primary-color);
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 54px;
 
 }
 
-#service>h2 {
+.serviceTag {
     margin-bottom: 2rem;
     text-align: center;
+    font-size: 36px;
 
 }
 

@@ -1,23 +1,27 @@
+'use client'
 import ServiceBox from "@/app/components/ServicesBox/ServiceBox";
 import "./service.css";
 import React from "react";
 import { BsStack } from "react-icons/bs";
 import { GrOptimize } from "react-icons/gr";
-import { FaLaptopCode, FaHeadSideVirus } from "react-icons/fa6";
-import { MdDevices } from "react-icons/md";
+import { FaCode } from "react-icons/fa";
+import { MdOutlineDesignServices } from "react-icons/md";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Service = () => {
 
   const box = [
     {
-      Icon: BsStack,
+      Icon: MdOutlineDesignServices,
       title: "Design",
       p1: "Custom Website Design",
       p2: "Mobile App Design",
       p3: "Brand Design",
     },
     {
-      Icon: BsStack,
+      Icon: FaCode,
       title: "Development",
       p1: "Website Developement",
       p2: "Mobile App Developement",
@@ -32,14 +36,50 @@ const Service = () => {
     },
   ];
 
+  gsap.registerPlugin(useGSAP, ScrollTrigger);
+
+  useGSAP(()=>{
+    gsap.from('.serviceHeading , .serviceTag',{
+      y:-100,
+      opacity:0,
+      duration: 1,
+      stagger:0.5,
+      scrollTrigger:{
+        trigger:"#service" ,
+        start: "top 80%",
+        end: "20% 60%",
+        // markers: true,
+        scrub:1
+      }
+    })
+  
+    gsap.from('.box',{
+      y:-100,
+      opacity:0,
+      duration: 2,
+      stagger:0.5,
+      scrollTrigger:{
+        trigger:".box" ,
+        start: "top 80%",
+        end: "30% 60%",
+        // markers: true,
+        scrub:1
+      }
+    })
+  })
+
   return (
     <>
       <section id="service">
-        <h3>Services</h3>
-        <h2> Creative Design Solutions</h2>
+      <div className="clip">
+        <h3 className="serviceHeading">Services</h3>
+      </div>
+      <div className="clip">
+      <h2 className="serviceTag"> Creative Design Solutions</h2>
 
+      </div>
         <div className="serviceContainer">
-          <div className="serviceBox">
+          <div className="serviceBox clip">
             {box.map((e, id) => {
               return (
                 <ServiceBox

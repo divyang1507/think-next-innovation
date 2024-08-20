@@ -1,9 +1,12 @@
-#about>h3 {
+.aboutHeading{
     color: var(--primary-color);
     margin-bottom: 1rem;
+    font-size: 54px;
 }
 
 .aboutContainer {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -14,11 +17,16 @@
 .about-1,
 .about-2 {
     flex: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
-
-.about-1 > p{
-    padding-top: 2rem;
+.aboutTag{
+font-size: 36px;
+}
+.aboutPara{
+font-size: 18px;
+padding-top: 2rem;
 }
 
 
@@ -33,8 +41,9 @@
         
     }
     
-    .about-1 > p{
-        padding-top: 1rem;
-
+    .aboutPara{
+    font-size: 18px;
+    padding-top: 1rem;
     }
+
   }

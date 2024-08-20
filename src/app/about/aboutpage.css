@@ -1,0 +1,48 @@
+.aboutpage {
+  width: 90vw;
+  margin: 9rem auto auto auto;
+}
+.pageHeading {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.pagesubHeading {
+    font-size: 48px;
+    margin-bottom: 2rem;
+  /* text-align: center; */
+  font-weight: 700;
+}
+.subHeading {
+  font-size: 28px;
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-top: 2rem;
+}
+.pageContianer {
+margin: auto;
+    width: 90%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 2rem;
+}
+
+.pagePara{
+    font-size: 18px;
+    text-align: justify;
+    line-height: calc(1.8* 18px);
+}
+
+.boxContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    width: 80%;
+    margin: auto;
+}
+
+.boxContainer .subHeading {
+    margin-bottom: 1rem;
+}
