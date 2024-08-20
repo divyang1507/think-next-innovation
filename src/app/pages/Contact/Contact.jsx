@@ -26,7 +26,7 @@ useGSAP(()=>{
     }
   })
 
-  gsap.from('.inputbox, .contactButton',{
+  gsap.from('.contact-2',{
     x:100,
     opacity:0,
     duration: 2,
@@ -69,16 +69,19 @@ useGSAP(()=>{
           <div className="contact-1">
 
             <div>
-              <IoMdMail /> <span>info@thinknextinnovation.com</span>
+              <IoMdMail className="contactIcon" /> <span>info@thinknextinnovation.com</span>
             </div>
             <div>
-              <IoCall /> <span>+91 999 999 999</span>
+              <IoCall className="contactIcon" /> <span>+91 999 999 999</span>
             </div>
             <div>
-              <IoLocationSharp /> <span> Ahmedabad, Gujarat, India</span>
+              <IoLocationSharp className="contactIcon" /> <span> Ahmedabad, Gujarat, India</span>
             </div>
           </div>
           <div className="contact-2">
+          <div className="contact2Tag">
+          Let’s talk your project
+          </div>
             <form>
               <div className="inputbox">
                 <input type="text" required />

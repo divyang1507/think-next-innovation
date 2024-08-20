@@ -1,3 +1,7 @@
+#service{
+    padding: 0 120px;
+}
+
 .serviceBox {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

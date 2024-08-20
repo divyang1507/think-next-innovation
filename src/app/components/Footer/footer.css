@@ -1,0 +1,23 @@
+.footer {
+  background-color: var(--black-color);
+  color: white;
+margin-top: 3rem;
+  padding: 2rem;
+}
+
+.footertop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 16px auto;
+}
+
+.footerbottom {
+  margin: 2rem 0 0 0;
+  text-align: center;
+}
+
+.logo {
+  font-size: 32px;
+}

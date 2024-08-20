@@ -11,12 +11,14 @@
 }
 .box>.icon {
     font-size: 3rem;
+    color: var(--primary-color);
 }
 
 
 .box>p {
     padding-top: 1rem;
-    color : #48494b
+    color : var(--neutral);
+    font-size: 18px;
 }
 
 .box>h4 {

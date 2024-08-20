@@ -4,6 +4,7 @@ import './globals.css'
 import About from "./pages/About/About";
 import Service from "./pages/Service/Service";
 import Contact from "./pages/Contact/Contact";
+import { Footer } from "./components/Footer/Footer";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Service />
       <Contact />
+     
     </main>
   );
 }

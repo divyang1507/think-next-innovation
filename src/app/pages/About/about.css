@@ -1,3 +1,7 @@
+#about{
+    padding: 0 120px;
+}
+
 .aboutHeading{
     color: var(--primary-color);
     margin-bottom: 1rem;

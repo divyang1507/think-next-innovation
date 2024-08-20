@@ -51,7 +51,8 @@ const page = () => {
             </p>
           </div>
         </div>
-        <div className="subHeading">Our Values</div>
+    <div className="valueContainer">
+    <div className="subHeading">Our Values</div>
         <p className="pagePara">
           Innovation: We are constantly exploring new technologies and
           methodologies to deliver solutions that are at the cutting edge of the
@@ -79,6 +80,7 @@ const page = () => {
           join us on our journey to create the future of digital innovation.
           Let’s work together to turn your vision into reality.
         </p>
+    </div>
       </section>
     </>
   );

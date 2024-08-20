@@ -5,7 +5,9 @@
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
     
-    --primary-color : #88ef00;
+    --primary-color : #c9f31d;
+    --black-color : #10171e;
+    --neutral : #666666
 
 
 }
@@ -26,6 +28,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  color: var(--black-color);
 }
 
 

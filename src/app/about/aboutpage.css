@@ -21,7 +21,6 @@
 }
 .pageContianer {
 margin: auto;
-    width: 90%;
   display: flex;
   justify-content: center;
   /* align-items: center; */
@@ -39,10 +38,13 @@ margin: auto;
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    width: 80%;
     margin: auto;
 }
 
 .boxContainer .subHeading {
     margin-bottom: 1rem;
+}
+
+.valueContainer{
+
 }

@@ -1,3 +1,6 @@
+#contact{
+  padding: 0 120px;
+}
 .contactContainer{
   display: flex;
   gap: 2rem;
@@ -32,23 +35,33 @@ font-size: 36px;
   padding-bottom: 1.5rem;
 }
 
-.contact-1 > div > span {
-  padding-left: 1rem;
-}
 
-.contact-1 > div > :first-child{
+
+.contactIcon{
+  background-color: var(--black-color);
   color: var(--primary-color);
+  padding: 0.5rem;
+  font-size: 2.5rem;
+  border-radius: 8px;
+  margin-right: 1rem;
 }
 
 
 
+.contact-2{
+  background-color: var(--black-color);
+  border-radius: 1rem;
+  padding: 3rem;
 
+}
 
-
-
+.contact2Tag{
+  font-size: 36px;
+  color: white;
+  padding-bottom: 2rem;
+}
 form {
   position: relative;
-  margin-bottom: 2rem;
 }
 
 .inputbox {
@@ -58,18 +71,20 @@ form {
 
 input,
 textarea {
+  background-color: var(--black-color);
   width: 100%;
   padding: 0.5rem 0;
   border: none;
   outline: none;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid white;
   transition: border-color 0.3s;
   font-size: 18px;
+  color: white;
 }
 
 input:focus,
 textarea:focus {
-  border-color: black;
+  border-color: white;
 }
 
 textarea {
@@ -86,6 +101,7 @@ label {
   pointer-events: none;
   transition: 0.5s;
   font-size: 18px;
+  color: white;
 }
 
 input:focus~label,

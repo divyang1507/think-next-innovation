@@ -6,8 +6,8 @@ const AboutBox = ({title, description}) => {
   return (
     <>
       <div className="valueblock">
-        <div className="valueHeading">
-          <h3>{title}</h3>
+        <div className="valueBox">
+          <h3 className="valueHeading">{title}</h3>
           <p className="paragraph">
            {description}
           </p>

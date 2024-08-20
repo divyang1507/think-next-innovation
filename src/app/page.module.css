@@ -2,8 +2,8 @@
 
 .main {
 
-  width:90vw;
-  margin: auto;
+  /* width:90vw; */
+  padding: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
