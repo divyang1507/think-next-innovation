@@ -10,11 +10,12 @@ const Services = ({ data }) => {
         <h1 className="lg:text-4xl text-3xl font-bold lg:mb-6">{e.title}</h1>
         <h2 className="lg:text-2xl text-xl font-semibold pb-4">{e.subTitle}</h2>
         <p className="mb-8">{e.content}</p>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
           {e.details.map((e, id) => {
             return (
-              <div key={id}>
+              <div key={id} className="">
               <div className="p-4 h-full bg-darkblue text-white rounded-xl">
+              
                   <h3 className="lg:text-xl text-lg font-semibold pb-4  ">
                     {e.dTitle}
                   </h3>

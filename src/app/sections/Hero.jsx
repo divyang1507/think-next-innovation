@@ -22,6 +22,7 @@ const Hero = () => {
     });
     gsap.to(".image", {
       y: 0,
+      opacity:1,
       duration: 1,
       opacity: 1,
       delay: 0.5,
@@ -39,7 +40,7 @@ const Hero = () => {
               <h2 className="tag translate-y-[-100%] text-3xl font-semibold">Think IT, Think Next</h2>
             </div>
             <div className="clip ">
-              <h1 className="maintag text-6xl leading-[4rem] translate-y-[-100%] font-bold" ref={ref}>
+              <h1 className="maintag lg:text-6xl text-4xl leading-none lg:leading-[4rem] translate-y-[-100%] font-bold" ref={ref}>
                 Brand, Design & Development Agency
               </h1>
             </div>
@@ -51,11 +52,11 @@ const Hero = () => {
               </p>
             </div>
             <div className="clip">
-              <button className="btn herobtn py-4 px-8 bg-primary hover:bg-darkblue text-darkblue rounded-xl hover:text-white">Let's Talk</button>
+              <button className="btn herobtn translate-y-[-100%] py-4 px-8 text-lg font-semibold bg-primary hover:bg-darkblue text-darkblue rounded-xl hover:text-white">Let's Talk</button>
             </div>
           </div>
           <div className="hero-2">
-            <Image className="image lg:w-[25vw] w-[40vw] rounded-[200px] object-contain translate-y-[-100%]" src={heroImage} alt="design by freepic" />
+            <Image className="image lg:w-[25vw] opacity-0 w-[40vw] rounded-[200px] object-contain translate-y-[-100%]" src={heroImage} alt="design by freepic" />
           </div>
         </div>
       </section>
