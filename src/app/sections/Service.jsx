@@ -78,8 +78,8 @@ const Service = () => {
       <h2 className="serviceTag text-4xl font-medium"> Creative Design Solutions</h2>
 
       </div>
-        <div className="serviceContainer mt-8">
-          <div className="serviceBox clip grid grid-cols-1 lg:grid-cols-3  justify-between gap-5 items-center ">
+        <div className="serviceContainer  mt-8">
+          <div className="serviceBox grid grid-cols-1 lg:grid-cols-3 justify-between gap-5 items-center ">
             {box.map((e, id) => {
               return (
                 <ServiceBox
