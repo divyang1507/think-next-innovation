@@ -1,9 +1,9 @@
 import styles from "./page.module.css";
-import Hero from "./pages/Home/Hero";
+import Hero from "./sections/Hero";
 import './globals.css'
-import About from "./pages/About/About";
-import Service from "./pages/Service/Service";
-import Contact from "./pages/Contact/Contact";
+import About from "./sections/About";
+import Service from "./sections/Service";
+import Contact from "./sections/Contact";
 import { Footer } from "./components/Footer/Footer";
 
 

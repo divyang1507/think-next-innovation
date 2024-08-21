@@ -12,7 +12,7 @@ export const Footer = () => {
 
   return (
     <>
-      <section class="footer">
+      <section className="footer">
         <div className="footertop">
           <Link href={"/"} className="logo">
             Think Next Innvoation

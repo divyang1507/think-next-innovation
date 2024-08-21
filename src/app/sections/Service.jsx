@@ -1,6 +1,6 @@
 'use client'
-import ServiceBox from "@/app/components/ServicesBox/ServiceBox";
-import "./service.css";
+import ServiceBox from "@/app/components/ServiceBox";
+// import "./service.css";
 import React from "react";
 import { BsStack } from "react-icons/bs";
 import { GrOptimize } from "react-icons/gr";
@@ -70,16 +70,16 @@ const Service = () => {
 
   return (
     <>
-      <section id="service">
+      <section id="service" className="pt-12 md:py-0 px-4 lg:px-[120px]">
       <div className="clip">
-        <h3 className="serviceHeading">Services</h3>
+        <h3 className="serviceHeading text-primary text-6xl font-bold mb-4">Services</h3>
       </div>
       <div className="clip">
-      <h2 className="serviceTag"> Creative Design Solutions</h2>
+      <h2 className="serviceTag text-4xl font-medium"> Creative Design Solutions</h2>
 
       </div>
-        <div className="serviceContainer">
-          <div className="serviceBox clip">
+        <div className="serviceContainer mt-8">
+          <div className="serviceBox clip grid grid-cols-1 lg:grid-cols-3  justify-between gap-5 items-center ">
             {box.map((e, id) => {
               return (
                 <ServiceBox

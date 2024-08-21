@@ -1,10 +1,9 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
-import "./hero.css";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import heroImage from "../../../../public/heroImage.jpg"
+import heroImage from "../../../public/heroImage.jpg";
 
 const Hero = () => {
   const ref = useRef(null);
@@ -24,41 +23,39 @@ const Hero = () => {
     gsap.to(".image", {
       y: 0,
       duration: 1,
-      opacity:1, 
+      opacity: 1,
       delay: 0.5,
     });
   });
 
   return (
     <>
-      <section className="hero" >
-        <div className="heroContainer">
-          <div className="hero-1">
-            <div className="clip">
-              <h2 className="tag">Think IT, Think Next</h2>
+      <section
+        className="hero min-h-screen pt-12 md:py-0 px-4 lg:px-[120px] flex items-center justify-center
+      ">
+        <div className="heroContainer flex flex-col md:flex-row items-center justify-between">
+          <div className="hero-1 md:w-2/3 w-full">
+            <div className="clip ">
+              <h2 className="tag translate-y-[-100%] text-3xl font-semibold">Think IT, Think Next</h2>
             </div>
-            <div className="clip">
-              <h1 className="maintag" ref={ref}>
+            <div className="clip ">
+              <h1 className="maintag text-6xl leading-[4rem] translate-y-[-100%] font-bold" ref={ref}>
                 Brand, Design & Development Agency
               </h1>
             </div>
-            <div className="clip">
-              <p className="heropara">
+            <div className="clip my-8">
+              <p className="heropara text-xl translate-y-[-100%] text-neutral">
                 At Think Next Innovation, Transforming ideas into innovative
                 solutions. Partner with us to bring your visions to life and
                 stay ahead in the digital landscape
               </p>
             </div>
             <div className="clip">
-              <button className="btn herobtn">Let's Talk</button>
+              <button className="btn herobtn py-4 px-8 bg-primary hover:bg-darkblue text-darkblue rounded-xl hover:text-white">Let's Talk</button>
             </div>
           </div>
           <div className="hero-2">
-            <Image
-              className="image"
-              src={heroImage}
-              alt="design by freepic"
-            />
+            <Image className="image lg:w-[25vw] w-[40vw] rounded-[200px] object-contain translate-y-[-100%]" src={heroImage} alt="design by freepic" />
           </div>
         </div>
       </section>

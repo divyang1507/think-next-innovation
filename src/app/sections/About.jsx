@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
-import "./about.css";
-import AboutBox from "@/app/components/AboutBox/AboutBox";
+// import "./about.css";
+import AboutBox from "@/app/components/AboutBox";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
@@ -62,14 +62,14 @@ useGSAP(()=>{
 })
   return (
     <>
-      <section id="about">
+      <section id="about" className=" min-h-screen pt-12 md:py-0 px-4 lg:px-[120px] ">
        <div className="clip">
-       <h3 className="aboutHeading">About us</h3>
+       <h3 className="aboutHeading text-primary text-6xl font-bold mb-4">About us</h3>
        </div>
-        <div className="aboutContainer">
-          <div className="about-1">
-            <h2 className="aboutTag">Your Partner in IT Solutions</h2>
-            <p className="aboutPara">
+        <div className="aboutContainer flex md:flex-row flex-col justify-between gap-5">
+          <div className=" clip about-1 flex-1">
+            <h2 className=" clip aboutTag text-4xl font-medium">Your Partner in IT Solutions</h2>
+            <p className="clip aboutPara pt-8 text-lg">
               On the other hand denounce with righteous and dislike men who
               beguile and demoralizes by the charms of pleasure thes moment, so
               blinded by desire that they cannot
@@ -82,7 +82,7 @@ useGSAP(()=>{
               distractions, focusing instead on delivering lasting value.
             </p>
           </div>
-          <div className="about-2">
+          <div className="about-2 flex-1">
             {aboutbox.map((e, id) => {
               return (
                 <div   key={id}>

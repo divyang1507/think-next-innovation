@@ -42,7 +42,7 @@ function page() {
                 <textarea placeholder="Your Message..." type="text" required></textarea>
                 {/* <label htmlFor="name"> Message</label> */}
               </div>
-              <button className="btn contactButton"> Contact us</button>
+              <button className="btn contactButton py-4 px-8 bg-primary hover:bg-darkblue text-darkblue rounded-xl hover:text-white"> Contact us</button>
             </form>
           </div>
         </div>
