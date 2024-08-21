@@ -1,22 +1,22 @@
 import React from "react";
-import "./aboutpage.css";
+// import "./aboutpage.css";
 import Image from "next/image";
-import AboutPage from "../../../public/AboutPage.svg";
+// import AboutPage from "../../../public/AboutPage.svg";
 
 const page = () => {
   return (
     <>
-      <section className="aboutpage">
+      <section className="aboutpage mt-36 md:py-0 px-4 lg:px-[120px] ">
         <div></div>
-        <div className="pageHeading">About Think Next Innovation</div>
+        <div className="pageHeading text-center mb-16 text-6xl font-bold">About Think Next Innovation</div>
 
-        <div className="pageContianer">
-          <Image src={AboutPage} alt="aboutpageimage" />
+        <div className="pageContianer flex flex-col lg:flex-row justify-center gap-8 ">
+          {/* <Image src={AboutPage} alt="aboutpageimage" /> */}
           <div>
-            <div className="pagesubHeading">
+            <div className="pagesubHeading text-5xl mb-8 font-bold">
               Your Partner in Digital Transformation
             </div>
-            <p className="pagePara">
+            <p className="pagePara text-lg leading-8 pt-4 text-justify">
               Think Next Innovation was founded on the belief that technology
               has the power to transform businesses, drive growth, and create
               new opportunities. In a world that is increasingly digital, we are
@@ -30,10 +30,10 @@ const page = () => {
           </div>
         </div>
 
-        <div className="boxContainer">
+        <div className="boxContainer flex lg:flex-row flex-col justify-center items-center gap-16">
           <div className="pageBox">
-            <div className="subHeading">Our Mission</div>
-            <p className="pagePara">
+            <div className="subHeading text-3xl font-bold text-primary mt-12">Our Mission</div>
+            <p className="pagePara leading-8 pt-4 text-lg text-justify">
               To deliver innovative, scalable IT solutions that drive business
               success and help our clients navigate the complexities of the
               digital world. We are committed to providing exceptional service,
@@ -42,8 +42,8 @@ const page = () => {
             </p>
           </div>
           <div className="pageBox">
-            <div className="subHeading">Our Vision</div>
-            <p className="pagePara">
+            <div className="subHeading text-3xl font-bold text-primary mt-12">Our Vision</div>
+            <p className="pagePara leading-8 pt-4 text-lg text-justify">
               To be a global leader in IT services, recognized for our
               commitment to quality, innovation, and client satisfaction. We
               strive to be the partner of choice for businesses looking to
@@ -52,8 +52,8 @@ const page = () => {
           </div>
         </div>
     <div className="valueContainer">
-    <div className="subHeading">Our Values</div>
-        <p className="pagePara">
+    <div className="subHeading text-3xl font-bold text-primary mt-12">Our Values</div>
+        <p className="pagePara leading-8 pt-4 text-lg text-justify">
           Innovation: We are constantly exploring new technologies and
           methodologies to deliver solutions that are at the cutting edge of the
           industry. Innovation is at the core of everything we do, ensuring that
