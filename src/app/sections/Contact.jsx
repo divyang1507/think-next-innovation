@@ -63,7 +63,7 @@ useGSAP(()=>{
         <h3 className="contactHeading text-primary text-6xl font-bold mb-4">Contact us</h3>
       </div>
       <div className="clip">
-            <h2 className="contactTag text-4xl font-medium"> Connect with Next Innovation</h2>
+            <h2 className="contactTag pb-8 text-4xl font-medium"> Connect with Next Innovation</h2>
       </div>
         <div className="contactContainer flex md:flex-row flex-col justify-between gap-5">
           <div className="contact-1 flex-1">

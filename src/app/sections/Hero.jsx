@@ -31,7 +31,7 @@ const Hero = () => {
   return (
     <>
       <section
-        className="hero min-h-screen pt-12 md:py-0 px-4 lg:px-[120px] flex items-center justify-center
+        className="hero min-h-screen pt-[18vw] lg:pt-[6vw] px-4 lg:px-[120px] flex items-center justify-center
       ">
         <div className="heroContainer flex flex-col md:flex-row items-center justify-between">
           <div className="hero-1 md:w-2/3 w-full">
