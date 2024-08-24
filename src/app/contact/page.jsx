@@ -4,6 +4,7 @@ import Image from "next/image";
 import contactImage from "../../../public/Contact2.jpg";
 import { IoMdMail } from "react-icons/io";
 import { IoCall, IoLocationSharp } from "react-icons/io5";
+import { BreadCrums } from "../components/BreadCrums";
 
 export const metadata = {
   title: "Contact | Think Next Innovation",
@@ -15,7 +16,10 @@ function page() {
   return (
     <>
       <section className="contactPage mt-28 md:py-0 px-4 lg:px-[120px] ">
-        <div className="CpageHeading text-center mb-16 text-6xl font-bold">Let’s work together</div>
+        <div className="CpageHeading text-center mb-2 lg:mb-4 text-6xl font-bold">Let’s work together</div>
+        <div className="mb-4 lg:mb-16">
+          <BreadCrums breadcrums={"Contact"}/>
+        </div>
 
         <div className="contactContainer flex md:flex-row flex-col justify-between gap-5">
           <div className="contact-1 flex-1">

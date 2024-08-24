@@ -1,5 +1,6 @@
 export const data = [
   {
+    image: "/WebDev.jpg",
     title: "Web Design & Development",
     subTitle: "Crafting Digital Experiences That Drive Success",
     content:
@@ -51,6 +52,7 @@ export const data = [
     ],
   },
   {
+    image: "/SoftDev.jpg",
     title: "Software Development",
     subTitle: "Innovative Software Solutions for a Competitive Edge",
     content:
@@ -102,6 +104,7 @@ export const data = [
     ],
   },
   {
+    image: "/AppDev.jpg",
     title: "Mobile App Development",
     subTitle: "Empowering Your Business with Innovative Mobile Solutions",
     content:
@@ -153,6 +156,7 @@ export const data = [
     ],
   },
   {
+    image : '/SEO.jpeg',
     title: "Digital Marketing & SEO",
     subTitle: "Driving Your Business Growth with Targeted Digital Strategies",
     content:

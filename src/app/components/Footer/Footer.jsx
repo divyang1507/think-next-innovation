@@ -18,7 +18,7 @@ export const Footer = () => {
             Think Next Innvoation
           </Link>
 
-          <div className="navMenu flex flex-col items-end justify-center lg:flex-row gap-8">
+          <div className="navMenu flex flex-col items-center justify-center lg:flex-row gap-8">
             {Links.map((e, id) => {
               return (
                 <Link
@@ -32,6 +32,7 @@ export const Footer = () => {
             })}
           </div>
         </div>
+        <hr className="my-4"/>
         <div className="footerbottom text-center py-4 text-slate-200">
           Think Next Innovation © 2024 ProGrowth TNI. All Rights Reserved.
         </div>

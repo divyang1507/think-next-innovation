@@ -4,6 +4,7 @@ import Image from "next/image";
 import AboutPage from "../../../public/aboutimage.jpg";
 import AboutPage2 from "../../../public/aboutimage2.jpg";
 import { Marquee } from "../components/Marquee";
+import { BreadCrums } from "../components/BreadCrums";
 
 export const metadata = {
   title: "About | Think Next Innovation",
@@ -15,10 +16,12 @@ const page = () => {
   return (
     <>
       <section className="aboutpage mt-36 md:py-0 ">
-        <div className="pageHeading text-center mb-8 lg:mb-16 lg:text-6xl text-4xl font-bold px-4 lg:px-[120px] ">
+        <div className="pageHeading text-center mb-2 lg:mb-4 lg:text-6xl text-4xl font-bold px-4 lg:px-[120px] ">
           About Think Next Innovation
         </div>
-
+<div className="mb-8 lg:mb-16">
+  <BreadCrums breadcrums={"About"}/>
+</div>
         <div className="pageContianer flex flex-col lg:flex-row justify-center gap-8 px-4 lg:px-[120px]  ">
           <div className="">
             <Image src={AboutPage} alt="aboutpageimage " />
@@ -79,6 +82,7 @@ const page = () => {
                 methodologies to deliver solutions that are at the cutting edge
                 of the industry. Innovation is at the core of everything we do,
                 ensuring that our clients stay ahead of the competition.
+                <br/>
                 Integrity: We believe in transparency, honesty, and building
                 long-term relationships based on trust. Our clients can count on
                 us to deliver on our promises and to act in their best interests
@@ -105,11 +109,11 @@ const page = () => {
                 together to turn your vision into reality.
               </p>
             </div>
-            <div className="max-w-[350px] object-cover">
+            <div className="min-w-[300px] h-1/2 object-cover">
               <Image
                 src={AboutPage2}
                 alt="aboutpageimage "
-                className="max-w-[350px] "
+                className="w-auto "
               />
             </div>
           </div>
