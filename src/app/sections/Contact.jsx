@@ -68,8 +68,8 @@ useGSAP(()=>{
         <div className="contactContainer flex md:flex-row flex-col justify-between gap-5">
           <div className="contact-1 flex-1">
 
-            <div className="flex mt-4 items-center" >
-              <IoMdMail className="contactIcon text-4xl text-primary bg-darkblue p-2 m-4 rounded-lg" /> <span className="text-2xl">info@thinknextinnovation.com</span>
+            <div className="flex mt-4 items-center break-all text-wrap" >
+              <IoMdMail className="contactIcon text-4xl text-primary bg-darkblue p-2 m-4 rounded-lg" /> <p className="text-2xl text-wrap break-all">info@thinknextinnovation.com</p>
             </div>
             <div className="flex items-center">
               <IoCall className="contactIcon text-4xl text-primary bg-darkblue p-2 m-4 rounded-lg" /> <span className="text-2xl">+91 999 999 999</span>

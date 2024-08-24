@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Think Next Innovation",
-  description: "Designed & Developed by Progrowth and Think Next Innovation",
+  description: "Designed & Developed by Progrowth and Think Next Innovation | Brand, Design & Development Agency",
 };
 
 export default function RootLayout({ children }) {

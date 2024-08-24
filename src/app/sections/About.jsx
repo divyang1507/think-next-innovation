@@ -31,7 +31,7 @@ const About = () => {
   gsap.registerPlugin(useGSAP, ScrollTrigger);
 
   useGSAP(() => {
-    gsap.from(".aboutHeading, aboutTag, .about-1", {
+    gsap.from(".aboutHeading, .aboutTag, .about-1", {
       y: -100,
       opacity: 0,
       duration: 1,
@@ -74,10 +74,10 @@ const About = () => {
           <h3 className="aboutHeading text-primary text-6xl font-bold mb-4">
             About us
           </h3>
-        </div>
         <h2 className=" clip aboutTag text-4xl font-medium ">
           Your Partner in IT Solutions
         </h2>
+        </div>
         <div className="aboutContainer flex md:flex-row pt-8 flex-col justify-between gap-16">
           <div className=" clip about-1 flex-1  rounded-2xl p-8 border-2 border-primary">
             <p className="clip aboutPara  text-lg ">
