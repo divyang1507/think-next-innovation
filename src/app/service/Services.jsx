@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Services = ({ data }) => {
@@ -8,9 +9,9 @@ const Services = ({ data }) => {
         return (
           <div key={id}>
             <div key={id} className="">
-              <div className="w-[100vw} h-[25vh] lg:h-[500px]  overflow-hidden my-8  group  ">
+              <div className="w-[100vw} h-fit lg:h-[500px]  overflow-hidden my-8  group rounded-xl  ">
                 <Image
-                className="group-hover:scale-105 grayscale group-hover:grayscale-0 transition duration-100"
+                  className="group-hover:scale-105 grayscale group-hover:grayscale-0 transition duration-100"
                   src={e.image}
                   width={1980}
                   height={500}
@@ -21,9 +22,16 @@ const Services = ({ data }) => {
                   alt="a"
                 />
               </div>
-              <h1 className="lg:text-4xl text-3xl font-bold lg:mb-6">
-                {e.title}
-              </h1>
+              <div className="flex justify-between items-center">
+                <h1 className="lg:text-4xl text-3xl font-bold lg:mb-6">
+                  {e.title}
+                </h1>
+                <Link href={"/contact"}>
+                  <button className="py-4 px-8 text-lg font-semibold bg-primary hover:bg-darkblue text-darkblue rounded-xl hover:text-white">
+                    Let's Talk
+                  </button>
+                </Link>
+              </div>
               <h2 className="lg:text-2xl text-xl font-semibold pb-4">
                 {e.subTitle}
               </h2>

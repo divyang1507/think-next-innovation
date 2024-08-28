@@ -39,7 +39,9 @@ body {
   color: var(--black-color);
 }
 
-
+.text-stroke {
+  
+}
 
 a {
   color: inherit;

@@ -26,7 +26,8 @@ module.exports = {
         },
       },
       animation: {
-        scroll: "scroll 10s linear infinite",
+        scroll: "scroll 20s linear infinite",
+        scrollslow: "scroll 25s linear infinite",
       },
     },
   },

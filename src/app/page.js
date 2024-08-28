@@ -11,7 +11,7 @@ export default function Home() {
   // const scroll = new LocomotiveScroll();
   return (
     // <main className={`${styles.main} relative`}>
-    <main className="relative">
+    <main className="relative lg:space-y-24 space-y-4">
       <Hero />
       <About />
       <TechMarquee />

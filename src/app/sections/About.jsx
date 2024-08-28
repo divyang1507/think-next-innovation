@@ -75,7 +75,9 @@ const About = () => {
             About us
           </h3>
         <h2 className=" clip aboutTag text-4xl font-medium ">
-          Your Partner in IT Solutions
+          Your Partner in IT  <span className="text-stroke ">
+            Solution
+          </span>
         </h2>
         </div>
         <div className="aboutContainer flex md:flex-row pt-8 flex-col justify-between gap-16">
